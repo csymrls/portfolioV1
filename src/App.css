@@ -10,7 +10,7 @@
 
   body {
     min-height: 100vh;
-    background: linear-gradient(to right, #ed809d, #f5e9d3);
+    background: linear-gradient(to right, #ff3300, #ff00ff);
     background-color: #1a0a2e;
     padding: 50px 5%;
   }
@@ -50,7 +50,7 @@
     align-items: center;
     z-index: 100;
     background: rgba(255, 255, 255, .05);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
     border-bottom: 1px solid rgba(255, 255, 255, .1);
     animation: slide-in 1s ease forwards;
     animation-delay: 1s;
