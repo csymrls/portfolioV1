@@ -28,8 +28,8 @@
     background: rgba(255, 255, 255, .1);
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 30px;
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
     overflow: hidden;
     animation: zoom-in 1s ease forwards;
     transform: scale(0);
