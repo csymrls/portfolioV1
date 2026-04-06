@@ -78,7 +78,7 @@ export default function Portfolio() {
             I enjoy turning complex problems into simple, accessible interfaces that
             feels natural to use.
           </p>
-      <div className="download-social">
+     <div className="download-social">
             <a 
               href="/Casey Marie Lois G. Barrido - CV.docx" 
               className="button" 
