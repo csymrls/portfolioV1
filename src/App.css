@@ -28,14 +28,14 @@
     --glass-border: rgba(255, 255, 255, .2);
   }
 
-  .container {
+.container {
     position: relative;
     min-height: calc(100vh - 100px);
     background: rgba(255, 255, 255, .1);
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 30px;
-    backdrop-filter: blur(180px);
-    -webkit-backdrop-filter: blur(180px);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
     overflow: hidden;
     animation: zoom-in 1s ease forwards;
     transform: scale(0);
