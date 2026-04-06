@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
   @import url("https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css");
 
   * {
@@ -10,10 +10,16 @@
 
   body {
     min-height: 100vh;
-    background: linear-gradient(to right, #ff3300, #ff00ff);
+    background-image: url("/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: #1a0a2e;
     padding: 50px 5%;
   }
+
+
 
   :root {
     --pink: hsl(331, 100%, 87%);
