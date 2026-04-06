@@ -78,8 +78,12 @@ export default function Portfolio() {
             I enjoy turning complex problems into simple, accessible interfaces that
             feels natural to use.
           </p>
-          <div className="download-social">
-            <a href="#" className="button">Download CV</a>
+      <div className="download-social">
+            <a 
+              href="/Casey Marie Lois G. Barrido - CV.docx" 
+              className="button" 
+              download="Casey Marie Lois G. Barrido - CV.docx"
+            >Download CV</a>
             <div className="social-icons">
               <a href="#" aria-label="GitHub"><i className="ri-github-fill" /></a>
               <a href="#" aria-label="LinkedIn"><i className="ri-linkedin-box-fill" /></a>
