@@ -21,11 +21,27 @@ const services = [
 ];
 
 const projects = [
-  { image: "awesmetodos.png", title: "AwesomeTodos", tag: "Todos built using MERN" },
-  { image: "doclock.png",     title: "Doclock",       tag: "Fast to press, No more stress!" },
-  { image: "addtocart.png",   title: "Product",       tag: "Product design" },
-  { image: "playlist.png",    title: "Playlist",      tag: "Currently playing" },
-];
+       { image: "aktiv.png", 
+            title: "Aktiv", 
+            tag: "Actively learning"
+          },
+       { image: "awesmetodos.png",
+          title: "AwesomeTodos", 
+          tag: "Todos built using MERN" 
+          },
+       { image: "doclock.png",     
+          title: "Doclock",       
+          tag: "Fast to press, No more stress!" 
+        },
+      { image: "addtocart.png",   
+          title: "Product",       
+          tag: "Product design" 
+        },
+      { image: "playlist.png",    
+          title: "Playlist",      
+          tag: "Currently playing" 
+        },
+      ];
 
 export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);

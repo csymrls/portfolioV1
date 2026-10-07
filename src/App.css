@@ -198,7 +198,7 @@
     
   }
   .img-box img {
-    position: absolute;
+    position: auto;
     top: 20px;
     display: block;
     width: 100%;
