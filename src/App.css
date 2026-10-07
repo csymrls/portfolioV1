@@ -129,7 +129,7 @@
     min-height: calc(100vh - 80px);
     gap: 50px;
     padding: 80px 5% 50px;
-    color: #ffd6e6;
+    color: #ffedf4;
     opacity: 0;
     transform: translateY(30px);
     animation: slide-in 1s ease forwards;
@@ -207,7 +207,6 @@
   .home-img { 
     display: center;
     justify-content: center;
-    margin-left: 5rem;
     line-height: 0;
   }
   .img-box {
