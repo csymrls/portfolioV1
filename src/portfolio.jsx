@@ -101,9 +101,9 @@ export default function Portfolio() {
               download="Casey Marie Lois G. Barrido - CV.docx"
             >Download CV</a>
             <div className="social-icons">
-              <a href="#" aria-label="GitHub"><i className="ri-github-fill" /></a>
-              <a href="#" aria-label="LinkedIn"><i className="ri-linkedin-box-fill" /></a>
-              <a href="#" aria-label="Email"><i className="ri-mail-fill" /></a>
+              <a href="https://github.com/csymrls" aria-label="GitHub"><i className="ri-github-fill" /></a>
+              <a href="https://www.linkedin.com/in/casey-barrido-613b60353/" aria-label="LinkedIn"><i className="ri-linkedin-box-fill" /></a>
+              <a href="https://caseybarrido@gmail.com" aria-label="Email"><i className="ri-mail-fill" /></a>
             </div>
           </div>
         </div>
