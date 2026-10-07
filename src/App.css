@@ -207,7 +207,7 @@
   .home-img { 
     display: center;
     justify-content: center;
-    line-height: 1px;
+    line-height: 0px;
   }
   .img-box {
     position: flex;
