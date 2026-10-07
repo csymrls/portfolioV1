@@ -38,7 +38,7 @@
     background: rgba(255, 255, 255, .1);
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 30px;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(70px);
     -webkit-backdrop-filter: blur(30px);
     overflow: hidden;
     animation: zoom-in 1s ease forwards;
@@ -137,12 +137,12 @@
   }
 
   .home-detail h4 { font-size: 22px; color: var(--pink-light); }
-  .home-detail h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; margin: 8px 0; }
+  .home-detail h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; margin: 8px 5px; }
   .home-detail h2 { font-size: clamp(1rem, 2.5vw, 1.6rem); font-weight: 500; color: var(--pink-light); }
   .home-detail p  { font-size: clamp(0.9rem, 1.5vw, 1.1rem); margin: 14px 0 24px; color: rgba(255,255,255,.8); max-width: 52ch; }
 
   .download-social {
-    display: flex;
+    display: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 12px;
@@ -150,7 +150,7 @@
 
   .button {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 17px 45px;
     background: var(--pink);
     border: 2px solid var(--pink);
     border-radius: 40px;
@@ -176,7 +176,7 @@
     font-size: 20px;
     color: var(--pink-light);
     text-decoration: none;
-    margin: 0 6px;
+    margin: 17px 10px;
     transition: .5s;
   }
   .social-icons a:hover {
@@ -185,9 +185,13 @@
     color: #333;
   }
 
-  .home-img { flex-shrink: 0; }
+  .home-img { 
+    display: center;
+    justify-content: center;
+    line-height: 0;
+  }
   .img-box {
-    position: relative;
+    position: center;
     width: 500px;
     height: 500px;
     border: 2px solid var(--pink);
@@ -195,11 +199,13 @@
     box-shadow: 0 0 20px var(--pink);
     overflow: hidden;
     margin-left: 15rem;
+    backdrop-filter: blur(10px);
     
   }
   .img-box img {
-    position: auto;
-    top: 20px;
+    display: center;
+    height: 100%;
+    border-radius: 50%;
     display: block;
     width: 100%;
     object-fit: cover;
